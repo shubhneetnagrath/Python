@@ -21,7 +21,7 @@ Sets cannot have two items with the same value.
 3>>The values True and 1 are considered the same value in sets, and are treated as duplicates.
    The values False and 0 are considered the same value in sets, and are treated as duplicates.
 
-4>>> Use discard always insted of remove, because rmove will generate a error if the item is not present in set.
+4>>> Use discard always insted of remove, because remove will generate a error if the item is not present in set.
    
 
 '''

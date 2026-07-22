@@ -2,7 +2,7 @@ numbers = [1, 2, 3, 4, 5]
 x = numbers[-1]
 numbers.pop(-1)
 numbers1 = numbers.copy()
-numbers.clear()
+numbers.clear() 
 numbers.append(x)
 numbers.extend(numbers1)
 print(numbers)

@@ -3,7 +3,7 @@ S = 0
 Y = ""
 for i in words:
     for x in words:
-      while S<=(len(i) or len(x)):
+      while S<=(len(i or x)):
         if i[S]!=x[S]:
             break
         else:

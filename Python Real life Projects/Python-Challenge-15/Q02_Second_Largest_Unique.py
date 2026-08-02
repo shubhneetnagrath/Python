@@ -1,4 +1,4 @@
-numbers = [10, 10,]
+numbers = [10, 9,10,]
 numberscopy = numbers.copy() 
 x = max(numberscopy)
 numberscopy = [n for n in numberscopy if n != x]

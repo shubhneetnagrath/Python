@@ -7,4 +7,3 @@ for x in numbers:
         break
 
     seen.add(x)
-#Yes — with one correction: using a set for membership checking is one of the most efficient approaches when your problem is "does this value exist?"

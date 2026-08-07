@@ -17,5 +17,5 @@ else:
                X+=1
           
 
-print(Length if Length != float('inf') else 0)
+print(Length if Length != float('inf') else 0) 
            

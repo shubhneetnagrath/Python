@@ -1,0 +1,11 @@
+Complexity   Name           Example                         When it happens
+
+O(1)         Constant       Accessing array by index        Best possible
+O(log n)     Logarithmic    Binary Search                   Excellent
+O(n)         Linear         Single loop through array       Good
+O(n log n)   Linearithmic   Merge Sort, efficient sorting   Very good
+O(n²)        Quadratic      Nested loops                    Acceptable for small n
+O(n³)        Cubic          Triple nested loops             Slow
+O(2ⁿ)        Exponential    Recursion without memoization   Very bad
+O(n!)        Factorial      Generating all permutations     Extremely bad
+

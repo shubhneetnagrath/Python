@@ -25,8 +25,36 @@ nums = [1, 2, 3, 4]
 print(2 in nums)       # True
 print(5 not in nums)   # True
 
-# 
+#IDENTITY OPERATORS
+a = [1, 2]
+b = a
+c = [1, 2]
 
+print(a is b)      # True  (same object)
+print(a is c)      # False (different objects)
+print(a is not c)  # True
+print(a == c)      # True  (same values)
 
+#BITWISE OPERATORS (ON INTEGERS)
 
+x & y   #And
+x | y   #OR
+x ^ y   #XOR
+~x      #NOT (invert)
 
+#OPERATOR PRECEDENCE 
+#**
+#~, +x, -x (unary)
+#*, /, //, %
+#+, -
+#<<, >>
+#&
+#^
+#|
+#Comparisons (==, !=, <, etc.), is, in
+#not
+#and
+#or
+#Assignment (=, +=, etc.)
+
+#Use parentheses when in doubt.
